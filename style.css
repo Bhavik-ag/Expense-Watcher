@@ -213,7 +213,7 @@ input {
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:520px) {
     .form-elements {
         flex-direction: column;
     }
@@ -230,6 +230,10 @@ input {
 
     #transdate {
         width: 50%;
+    }
+
+    .listitem {
+        font-size: 14px;
     }
 
 }
